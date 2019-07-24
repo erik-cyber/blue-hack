@@ -1,0 +1,94 @@
+n # ! / bin / bash
+# versi 1.0
+
+bersih
+# Variabel
+b = ' \ 033 [1 m '
+u = ' \ 033 [4m '
+bl = ' \ E [30m '
+r = ' \ E [31m '
+g = ' \ E [32m '
+bu = ' \ E [34m '
+m = ' \ E [35m '
+c = ' \ E [36m '
+w = ' \ E [37m '
+endc = ' \ E [0m '
+enda = ' \ 033 [0m '
+blue = ' \ e [1; 34m '
+cyan = ' \ e [1; 36m '
+red = ' \ e [1; 31m '
+
+cowsay -f mata " BLUE CYBER "  | lolcat
+figlet -f miring " BLUE CYBER "  | lolcat
+echo  "     <===================== [] ======================> "  | lolcat
+echo  "     <===== [HACKTIVITY BLUE CYBER] =====> "  | lolcat
+echo   "     <===== [Hubungi Saya: +6283166501184] =====> "  | lolcat
+echo  "     <===================== [] ======================> "  | lolcat
+
+tidur 1
+
+# ############################################## #
+# CTRL + C
+# ############################################## #
+menjebak ctrl_c INT
+ctrl_c () {
+bersih
+bersih
+tidur 1
+keluar
+}
+
+
+lagi = 1
+sementara [ $ lagi  -lt 6] ;
+melakukan
+gema  " "
+echo  $ b  " 1. Retas Akun Instagram $ {enda} " ;
+echo  $ b  " 2. Retas Akun Facebook $ {enda} " ;
+echo  $ b  " 3. Facebook Multi BruteForce $ {enda} " ;
+echo  $ b  " 4. Webdav $ {enda} " ;
+echo  $ b  " 5. Spam Jd.id $ {enda} " ;
+echo  $ b  " 6. Penginstal Alat $ {enda} " ;
+echo  $ b  " 7. Spam Telkomsel $ {enda} " ;
+echo  $ b  " 8. Instal Bahan $ {enda} " ;
+echo  $ b  " 99. Keluar $ {enda} " ;
+baca -p " Pilih Nomornya => " pil ;
+
+case  $ pil  masuk
+1) sh Ig.sh
+gema
+
+;;
+2) python2 Fb.py
+
+;;
+3) python2 uj.py
+
+;;
+4) sh bh.sh
+
+;;
+5) php fs.php
+
+;;
+
+6) sh fs.sh
+
+;;
+
+7) php xc.php
+
+;;
+
+8) sh xd.sh
+
+;;
+
+99) gema  " Autor: BLUE CYBER "  | lolcat
+figlet -f miring " BLUE CYBER "  | lolcat
+keluar
+;;
+
+esac
+selesai
+selesai
